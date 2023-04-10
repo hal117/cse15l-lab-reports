@@ -28,4 +28,8 @@ First, you're going to look up your course specific CSE15l account [here](https:
 3. Then click on change password just under your account name
 4. Then click the link right under Course-specific TA and Instructor accounts.
 ![Image](Screenshot3.png)
-6. Change your password and congrats! You have your new account.
+6. Change your password and congrats! You have your new account!
+
+Now we will use that account in our VScode terminal to connect to remote computers over the internet to do work.
+If you are on windows you will need to install git which you can do through [here](https://gitforwindows.org/).
+Then, follow these [steps](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to set your default terminal to use the new git bash we just installed. 
