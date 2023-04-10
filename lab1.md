@@ -12,3 +12,5 @@ First, head over to the Visual Studio website [https://code.visualstudio.com/], 
 windows, etc).
 
 When it is installed, a window should open up looking like this: 
+
+![Image](VScode.png)
