@@ -33,3 +33,9 @@ First, you're going to look up your course specific CSE15l account [here](https:
 Now we will use that account in our VScode terminal to connect to remote computers over the internet to do work.
 If you are on windows you will need to install git which you can do through [here](https://gitforwindows.org/).
 Then, follow these [steps](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to set your default terminal to use the new git bash we just installed. 
+
+
+You will open your terminal and use ssh. For example, type ssh cs15lsp23zz@ieng6.ucsd.edu but change the pharse after ssh to whatever your course account is. Then enter your password. (you will not be able to see your password for security reasons so type it out and then click enter). This should get your account running and you will be remotely connected!
+
+---
+#Running some commands
