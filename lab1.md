@@ -27,4 +27,5 @@ First, you're going to look up your course specific CSE15l account [here](https:
 ![Image](Screenshot1.png)
 3. Then click on change password just under your account name
 4. Then click the link right under Course-specific TA and Instructor accounts.
-5. Change your password and congrats! You have your new account.
+![Image](Screenshot3.png)
+6. Change your password and congrats! You have your new account.
