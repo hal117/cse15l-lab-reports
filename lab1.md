@@ -39,3 +39,16 @@ You will open your terminal and use ssh. For example, type ssh cs15lsp23zz@ieng6
 
 ---
 # Running some commands
+Here comes the fun part! After opening the terminal in VScode and sshing, try some of these commands and see what they do cd, ls, pwd, mkdir, and cp.
+
+Or you can try these commands as well:
+1. cd ~
+2. cd
+3. ls -lat
+4. ls -a
+5. ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+6. cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+7. cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+
+For example when I use ls -lat in the terminal:
+  
