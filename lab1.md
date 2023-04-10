@@ -18,3 +18,6 @@ When it is installed, a window should open up a home page that looks similar to 
 You're all set with installing VScode, you can start coding all your fancy projects, but now we're going to move on!
 
 ---
+# Remotely connecting
+This process is gonna be a little more extensive so pay close attention:
+First, you're going to look up your course specific CSE15l account here 
