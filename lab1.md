@@ -38,4 +38,4 @@ Then, follow these [steps](https://stackoverflow.com/questions/42606837/how-do-i
 You will open your terminal and use ssh. For example, type ssh cs15lsp23zz@ieng6.ucsd.edu but change the pharse after ssh to whatever your course account is. Then enter your password. (you will not be able to see your password for security reasons so type it out and then click enter). This should get your account running and you will be remotely connected!
 
 ---
-#Running some commands
+# Running some commands
