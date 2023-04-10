@@ -7,7 +7,7 @@ Hello incoming 15l UCSD students! During lab1 many students including myself had
 In this tutorial, I'm to take you through this process so you're experience is smooth and simple. 
 
 ---
-#Installing VScode
+# Installing VScode
 First, head over to the Visual Studio website [https://code.visualstudio.com/], and download the version that is compatible with your device (macOS, 
 windows, etc).
 
