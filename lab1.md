@@ -51,4 +51,5 @@ Or you can try these commands as well:
 7. cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
 For example when I use ls -lat in the terminal:
+![Image](Screenshot4.png)
   
