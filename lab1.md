@@ -14,3 +14,7 @@ windows, etc).
 When it is installed, a window should open up a home page that looks similar to this: 
 
 ![Image](VScode.png)
+
+You're all set with installing VScode, you can start coding all your fancy projects, but now we're going to move on!
+
+---
