@@ -8,7 +8,7 @@ In this tutorial, I'm to take you through this process so you're experience is s
 
 ---
 # Installing VScode
-First, head over to the Visual Studio website [Link](https://code.visualstudio.com/), and download the version that is compatible with your device (macOS, 
+First, head over to the Visual Studio [website](https://code.visualstudio.com/), and download the version that is compatible with your device (macOS, 
 windows, etc).
 
 When it is installed, a window should open up a home page that looks similar to this: 
@@ -20,4 +20,9 @@ You're all set with installing VScode, you can start coding all your fancy proje
 ---
 # Remotely connecting
 This process is gonna be a little more extensive so pay close attention:
-First, you're going to look up your course specific CSE15l account here 
+First, you're going to look up your course specific CSE15l account [here](https://sdacs.ucsd.edu/~icc/index.php).
+1.Enter your pid and username
+2.Click on the account that begins with cs15l
+3.Then click on change password just under your account name
+4.Then click the link right under Course-specific TA and Instructor accounts.
+5.Change your password and congrats! You have your new account.
