@@ -53,3 +53,6 @@ Or you can try these commands as well:
 For example when I use ls -lat in the terminal:
 ![Image](Screenshot4.png)
   
+---
+
+This concludes a quick little tutorial for installing VScode, setting up remote access, and showing some of the commands you can use. Hope it was helpful!
