@@ -21,6 +21,7 @@ You're all set with installing VScode, you can start coding all your fancy proje
 # Remotely connecting
 This process is gonna be a little more extensive so pay close attention:
 First, you're going to look up your course specific CSE15l account [here](https://sdacs.ucsd.edu/~icc/index.php).
+
 1.Enter your pid and username
 2.Click on the account that begins with cs15l
 ![Image](Screenshot1.png)
