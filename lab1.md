@@ -11,6 +11,6 @@ In this tutorial, I'm to take you through this process so you're experience is s
 First, head over to the Visual Studio website [https://code.visualstudio.com/], and download the version that is compatible with your device (macOS, 
 windows, etc).
 
-When it is installed, a window should open up looking like this: 
+When it is installed, a window should open up a home page that looks similar to this: 
 
 ![Image](VScode.png)
