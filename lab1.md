@@ -55,6 +55,7 @@ For example when I use `ls -lat` in the terminal:
 ![Image](Screenshot4.png)
  
 Here, the command `ls -lat` lists all the directories and file names by sorting the dates in order. 
+
 ---
 
 
