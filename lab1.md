@@ -49,7 +49,7 @@ Here comes the fun part! After opening the terminal in VScode and sshing, try so
 6. $ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 7. $ cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
-(DO NOT include $ when writing out the commands, the $ symbol is just to signify a line of code). For example, `cd` changes the directory to the one of your choosing and while command `cat` prints out the contents of the file you run. Or `ls -a` which shows hidden files and directories in the current directory. After trying out these commands, write down and make note of what each command does. For a more concrete explanation and example, go to the next page. 
+(DO NOT include $ when writing out the commands, the $ symbol is just to signify a line of code). For example, `cd` changes the directory to the one of your choosing and while command `cat` prints out the contents of the file you run. Or `ls -a` which shows hidden files and directories in the current directory. After trying out these commands, write down and make note of what each command does. For a visual example, continue reading. 
 
 For example when I use `ls -lat` in the terminal:
 ![Image](Screenshot4.png)
