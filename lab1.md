@@ -56,8 +56,6 @@ For example when I use `ls -lat` in the terminal:
  
 Here, the command `ls -lat` lists all the directories and file names by sorting the dates in order. 
 
-(A problem that I ran into was when I print to pdf, the code blocks don't show and they are written in a different font instead. However they do show up on the website.) 
-
 ---
 
 
