@@ -18,10 +18,12 @@ The next step is to launch the server using `javac StringServer.java` and `java 
 
 Now that you have your webiste up and running, we can add `/add-message?s=<string>` to the end of the url or query.
 For example:
-`
+
+```
 -http://localhost:4000/add-message?s=hello
 -http://localhost:4000/add-message?s=I am Harrison
-`
+```
+
 ![Image](I am Harrison.png)
 ![Image](Hello.png)
 
