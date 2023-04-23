@@ -33,4 +33,57 @@ In both images, the handleRequest method was called and took in the URL as an ar
 
 In the third lab we focused on debugging methods using JUnit tests. We debugged, reported the symptoms, and then changed the code in order to fix it. 
 
-For example in the ArrayExamples file
+For example in the ArrayExamples file there was an error in the `reversed()` method. 
+
+`
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+}
+`
+
+Using a JUnit test with a failure inducing input, the error that I got was:
+
+`
+@Test
+  public void newtestreverse(){
+    int[] input1 = { 10, 9, 8};
+    assertArrayEquals(new int[]{8, 9, 10}, ArrayExamples.reversed(input1) );
+  }
+ `
+ 
+ ![Image](Assertest.png)
+ 
+ 
+An input that doesn't produce a failure is:
+`
+ @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+ `
+ 
+The purpose of `reversed()` was to copy the elements of the input array into a new array in reverse order. However, in line ` arr[i] = newArray[arr.length - i - 1]; ` is trying to access elements of the new array newArray to assign them to elements of the input array arr, which is the opposite of what should be happening. This is what the corrected version of the code should look like. 
+
+`
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+}
+`
+
+This fixes the issue because it correctly assigns the elements or arr in reverse to newArray.
+
+---
+#Final thoughts
+---
+
+I learned many things in labs 2 and 3, but the thing that was most interesting to me was learning how to create a program that takes in a url and produce a server. Although it was difficult for me to wrap my head around it at first, I was able to understand it which increased my confidence in understanding programming concepts. 
+ 
