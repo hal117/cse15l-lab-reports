@@ -35,6 +35,7 @@ In the third lab we focused on debugging methods using JUnit tests. We debugged,
 
 For example in the ArrayExamples file there was an error in the `reversed()` method. 
 
+
 `
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -45,7 +46,9 @@ static int[] reversed(int[] arr) {
 }
 `
 
+
 Using a JUnit test with a failure inducing input, the error that I got was:
+
 
 `
 @Test
@@ -55,10 +58,13 @@ Using a JUnit test with a failure inducing input, the error that I got was:
   }
  `
  
+ 
  ![Image](Assertest.png)
  
  
 An input that doesn't produce a failure is:
+
+
 `
  @Test
   public void testReversed() {
