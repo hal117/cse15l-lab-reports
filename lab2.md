@@ -88,7 +88,7 @@ static int[] reversed(int[] arr) {
 This fixes the issue because it correctly assigns the elements or arr in reverse to newArray.
 
 ---
-#Final thoughts
+# Final thoughts
 ---
 
 I learned many things in labs 2 and 3, but the thing that was most interesting to me was learning how to create a program that takes in a url and produce a server. Although it was difficult for me to wrap my head around it at first, I was able to understand it which increased my confidence in understanding programming concepts. 
