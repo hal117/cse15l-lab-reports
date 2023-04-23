@@ -77,7 +77,7 @@ An input that doesn't produce a failure is:
  
 The purpose of `reversed()` was to copy the elements of the input array into a new array in reverse order. However, the line 
 
-`arr[i] = newArray[arr.length - i - 1];` 
+```arr[i] = newArray[arr.length - i - 1];``` 
 
 is trying to access elements of the new array newArray to assign them to elements of the input array arr, which is the opposite of what should be happening. This is what the corrected version of the code should look like. 
 
