@@ -36,7 +36,7 @@ In the third lab we focused on debugging methods using JUnit tests. We debugged,
 For example in the ArrayExamples file there was an error in the `reversed()` method. 
 
 
-`
+```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -44,19 +44,19 @@ static int[] reversed(int[] arr) {
     }
     return arr;
 }
-`
+```
 
 
 Using a JUnit test with a failure inducing input, the error that I got was:
 
 
-`
+```
 @Test
   public void newtestreverse(){
     int[] input1 = { 10, 9, 8};
     assertArrayEquals(new int[]{8, 9, 10}, ArrayExamples.reversed(input1) );
   }
- `
+ ```
  
  
  ![Image](Assertest.png)
@@ -65,17 +65,17 @@ Using a JUnit test with a failure inducing input, the error that I got was:
 An input that doesn't produce a failure is:
 
 
-`
+```
  @Test
   public void testReversed() {
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
- `
+ ```
  
 The purpose of `reversed()` was to copy the elements of the input array into a new array in reverse order. However, in line ` arr[i] = newArray[arr.length - i - 1]; ` is trying to access elements of the new array newArray to assign them to elements of the input array arr, which is the opposite of what should be happening. This is what the corrected version of the code should look like. 
 
-`
+```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -83,7 +83,7 @@ static int[] reversed(int[] arr) {
     }
     return newArray;
 }
-`
+```
 
 This fixes the issue because it correctly assigns the elements or arr in reverse to newArray.
 
