@@ -22,6 +22,9 @@ Second Example:
 
 ![Image](namecommand2.png)
 
+For more info click [HERE](https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/#:~:text=The%20find%20command%20allows%20you%20to%20search%20a%20specific%20file,that%20you%20want%20to%20search.&text=You%20can%20use%20the%20following,f%20%E2%80%93%20regular%20file).
+
+---
 # Using `-size`
 ---
 The `-size` command allows the user to look for every file that is larger than or less than a certain size. This is espescially useful when searching for multiple files of the same size. The command would look something like this. For reference you can measure the size value of files in bytes, kilobytes, megabytes, etc. 
@@ -37,3 +40,7 @@ Second Example:
 `$ find technical -size  -1000c` (This command finds files that are smaller than 1000 kilobytes where the c represents the bytes).
 
 ![Image](sizecommand2.png)
+
+---
+# Using 
+
