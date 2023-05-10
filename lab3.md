@@ -22,7 +22,7 @@ Second Example:
 
 ![Image](namecommand2.png)
 
-For more info click [HERE](https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/#:~:text=The%20find%20command%20allows%20you%20to%20search%20a%20specific%20file,that%20you%20want%20to%20search.&text=You%20can%20use%20the%20following,f%20%E2%80%93%20regular%20file).
+Looking at the outputs, the command tells us exactly where the file is, making our lives much easier. For more information on this command, click [HERE](https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/#:~:text=The%20find%20command%20allows%20you%20to%20search%20a%20specific%20file,that%20you%20want%20to%20search.&text=You%20can%20use%20the%20following,f%20%E2%80%93%20regular%20file).
 
 ---
 # Using `-size`
@@ -41,6 +41,51 @@ Second Example:
 
 ![Image](sizecommand2.png)
 
+Here, we can see the various files that meet the size requiremet that we wanted. I didn't find this command anywhere online, but actually from CHATgpt and found it really interesting and useful!
+
 ---
-# Using 
+# Using `-type`
+---
+The `-type` command searches for every file that is referred to the type you weant. If we typed `d` after -type, all the directories or folders would be returned. The command you would use would be:
+
+`$ find <current directory> -type <type you want>` 
+
+First Example:
+
+`$ find technical -type d`
+
+![Image](typecommand.png)
+
+Second Example:
+
+`$ find technical -type f` (searches for type file which ended up filling up the terminal as there were so many)
+
+![Image](typecommand2.png)
+
+For more information on this command click [HERE](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/).
+
+---
+#Using `-mtime`
+---
+The `mtime` command allows us to search for files based on their modification time. You can adjust the value to what you desire for example, finding files that have been modified within the last 5 days. The command you would use would look like. 
+
+`$ find <current directory> -mtime <value of days>`
+
+First Example:
+`$ find technical -mtime -1` (The -1 represents searching for files modified in the last 1 days)
+
+![Image](mtimecommand.png)
+
+Second Example:
+`$ find technical -mtime +7` (The +7 represents searching for files modified more than 7 days ago)
+
+![Image](mtimecommand2.png)
+
+Here, there is no output because nothing has been modified more than 7 days ago. For more information on this command click [HERE](https://sysaix.com/43-practical-examples-of-linux-find-command)
+
+---
+
+This is Lab Report 3 talking about the various command line options that we can use with the command `find`. I learned a lot about the versatility of this command and the many ways it can be used in making the lives of developers easier. I'm sure there is more to learn and I have only touched the surface. 
+
+
 
