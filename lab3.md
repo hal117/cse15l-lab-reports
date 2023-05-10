@@ -4,7 +4,7 @@
 ---
 The `find` command is a useful command that allows the user to search for various files within a directory or folder. This command proves its versatility when being provided
 with large repositories and want to find a specific file immediately. There are many different ways you can use this command and many different command-line options to help you with that
-being `-name`, `type`, `-path`, `-size`. 
+being `-name`, `-type`, `-path`, `-size`. 
 
 # Using `-name`
 ---
@@ -65,8 +65,9 @@ Second Example:
 For more information on this command click [HERE](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/).
 
 ---
-#Using `-mtime`
+# Using `-mtime`
 ---
+
 The `mtime` command allows us to search for files based on their modification time. You can adjust the value to what you desire for example, finding files that have been modified within the last 5 days. The command you would use would look like. 
 
 `$ find <current directory> -mtime <value of days>`
