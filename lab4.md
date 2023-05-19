@@ -8,7 +8,7 @@ up the process.
 ## Step 1: Logging into remote account
 The first step is to log into your remote account. So I typed out ssh cs15lsp23pt@ieng6.ucsd.edu and then typed out my password and clicked `<enter>`.
 
-![Image](lab4ieng6screenshot.png)
+![Image](lab4ieng6.screenshot.png)
 
 ---
 ## Step 2: Cloning fork of the repository
