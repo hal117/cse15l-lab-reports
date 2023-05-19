@@ -38,11 +38,11 @@ Once inside Vim here are the exact keys that I pressed.
 
 Original code would look like this
 
-![Image](lab4codefail)
+![Image](lab4codefail.png)
 
 After the fix it would look like this
 
-![Image](lab4codesuccess)
+![Image](lab4codesuccess.png)
 
 ---
 ## Step 5: Running the test to demonstrate they succeed
@@ -51,7 +51,7 @@ After fixing the code run a J-unit test to determine success by typing out `bash
 
 You should get an image that looks like this 
 
-![Image](lab4bashtestsuccess)
+![Image](lab4bashtestsuccess.png)
 
 ---
 ## Step 6: Commit and push the changes to Github
