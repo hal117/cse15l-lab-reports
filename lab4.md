@@ -34,7 +34,10 @@ something like this.
 
 After seeing the errors, we are going to have to fix the code through vim, a text editor program. In the terminal type out `vim ListExamples.java <Enter>` to open the file up in vim.
 Once inside Vim here are the exact keys that I pressed.
+
 `$ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq`
+
+Esc puts you into normal mode and :wq saves and exits the changes you mode. 
 
 Original code would look like this
 
