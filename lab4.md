@@ -16,15 +16,15 @@ After you are successfully logged in, type out
 
 `git clone https://github.com/hal117/lab7.git <Enter>`
 
-You should then see something like this.
+This clones the entire reposityory into your remote account. You should then see something like this.
 ![Image](lab4gitclone.png)
 
-1. Type out `ls` to check whether lab7 has been successfully clones.
+1. Type out `ls` to check whether lab7 has been successfully clones. This will list all the directories to be able to check if lab7 is there
 2. If you see lab7, then change directories into it by typing out `cd lab7 <Enter>`.
 
 ---
 ## Step 3: Run the tests demonstrating they fail
-Once you have successfully changed directories, you will run J-unit tests to demonstrate that there are tests being failed by typing our `bash test.sh <Enter>`. You should see 
+Once you have successfully changed directories, you will run J-unit tests to demonstrate that there are tests being failed by typing out `bash test.sh <Enter>`. You should see 
 something like this.
 
 ![Image](lab4test.png)
@@ -32,7 +32,7 @@ something like this.
 ---
 ## Step 4: Editing the code to fix the failing test
 
-After seeing the errors, we are going to have to fix the code through vim. In the terminal type out `vim ListExamples.java <Enter>` to open the file up in vim.
+After seeing the errors, we are going to have to fix the code through vim, a text editor program. In the terminal type out `vim ListExamples.java <Enter>` to open the file up in vim.
 Once inside Vim here are the exact keys that I pressed.
 `$ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq`
 
@@ -56,7 +56,7 @@ You should get an image that looks like this
 ---
 ## Step 6: Commit and push the changes to Github
 
-To commit the changes, you have to type out `git add ListExamples.java<Enter>` Then `git commit -m Done! <Enter>`.
+To commit the changes, you type out `git add ListExamples.java<Enter>` Then `git commit -m Done! <Enter>`.
 
 ![Image](Changescommited.png)
 
