@@ -37,6 +37,8 @@ Once inside Vim here are the exact keys that I pressed.
 
 `$ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq`
 
+`/index1` searches for index1 and clicking n will search for each occurence one by one. 
+`r 2` will replace with 2. 
 Esc puts you into normal mode and :wq saves and exits the changes you mode. 
 
 Original code would look like this
