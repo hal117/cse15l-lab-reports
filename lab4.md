@@ -16,7 +16,7 @@ After you are successfully logged in, type out
 
 `git clone https://github.com/hal117/lab7.git <Enter>`
 
-This clones the entire reposityory into your remote account. You should then see something like this.
+This clones the entire repository into your remote account. You should then see something like this.
 ![Image](lab4gitclone.png)
 
 1. Type out `ls` to check whether lab7 has been successfully clones. This will list all the directories to be able to check if lab7 is there
