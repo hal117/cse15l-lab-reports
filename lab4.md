@@ -2,13 +2,16 @@
 ---
 
 In today's lab, we had to see how fast we could edit and compile a file through the terminal using vim. There were a couple of steps to do this and many different ways to speed
-up the process.
+up the process. The first thing we are going to have to do is generate an ssh key for our ieng6 accounts so that we won't need to enter our password.
 
 ---
-## Step 1: Logging into remote account
-The first step is to log into your remote account. So I typed out ssh cs15lsp23pt@ieng6.ucsd.edu and then typed out my password and clicked `<enter>`.
+## Step 1: Logging into remote account and generating SSH Keys
+1. The first step is to generate an ssh key using  `ssh cs15lsp23xx@ieng6.ucsd.edu` and then `<enter>`.
+2. Then copy the path that is provided after the line "your public key has been saved in".
+3. Once you have this saved, log out of the remote account and enter the line of code 
+`scp <path to your public SSH key> cs15lwi23xxx@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
-![Image](lab4ieng6.screenshot.png)
+You can now able to log into your remote account without typing your password making the process faster and more efficient.
 
 ---
 ## Step 2: Cloning fork of the repository
@@ -37,9 +40,13 @@ Once inside Vim here are the exact keys that I pressed.
 
 `$ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq`
 
-`/index1` searches for index1 and clicking n will search for each occurence one by one. 
-`r 2` will replace with 2. 
-Esc puts you into normal mode and :wq saves and exits the changes you mode. 
+`/index1` searches for index1 and clicking `n` will search for each occurence one by one so that we are able to get to the error. 
+
+`r 2` will replace the index that the cursor is on with 2. (This fixes the bug the most efficiently).
+
+`Esc` puts you into normal mode and `:wq` saves and exits the changes you mode. 
+
+Each of these keystrokes make it easier to navigate through the code and make the changes necessary to fix the bugs within our code. 
 
 Original code would look like this
 
