@@ -42,6 +42,8 @@ Once inside Vim here are the exact keys that I pressed.
 
 `/index1` searches for index1 and clicking `n` will search for each occurence one by one so that we are able to get to the error. 
 
+`l` this key moves the cursor to the right once, we do this to arrive at the point where the bug exists.
+
 `r 2` will replace the index that the cursor is on with 2. (This fixes the bug the most efficiently).
 
 `Esc` puts you into normal mode and `:wq` saves and exits the changes you mode. 
