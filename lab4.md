@@ -9,7 +9,7 @@ up the process. The first thing we are going to have to do is generate an ssh ke
 1. The first step is to generate an ssh key using  `ssh cs15lsp23xx@ieng6.ucsd.edu` and then `<enter>`.
 2. Then copy the path that is provided after the line "your public key has been saved in".
 3. Once you have this saved, log out of the remote account and enter the line of code 
-`scp <path to your public SSH key> cs15lwi23xxx@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+`scp <path to your public SSH key> cs15lsp23xx@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 You can now able to log into your remote account without typing your password making the process faster and more efficient.
 
